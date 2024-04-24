@@ -17,6 +17,7 @@ public class Bank : MonoBehaviour
     void Awake()
     {
         currentBalance = startingBalance;
+        UpdateDisplay();
     }
 
     public void Deposit(int amount)
